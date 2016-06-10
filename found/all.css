@@ -1,0 +1,267 @@
+html {
+    font-family: "Comic Sans MS",sans-serif,Helvetica,Arial;
+    font-size: 100%;
+    background-color: #a89f8e;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0 auto;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	font-family: Helvetica,Arial,sans-serif;
+}
+/* img{
+	display: block;
+} */
+header{
+	/* position: absolute; */
+	width: 100%;
+	height:146px;
+	min-width: 1080px;
+	background-color: #b1a99a;
+}
+#top{
+	width:1235px;
+	margin: 0 auto;
+	/* margin-left: 185px; */
+}
+blockquote{
+	padding-top: 50px;
+}
+blockquote p{
+	float: left;
+	color: #fff;
+	font-size: 1.4em;
+	font-weight: bold;
+	font-family: "Comic Sans MS",sans-serif,Helvetica,Arial;
+}
+blockquote span{
+	font-size: 1.6em;
+}
+address{
+	padding-right: 10px;
+	float: right;
+	color: #123555;
+	font-size: 1.0em;
+	font-family: Helvetica,Arial,sans-serif;
+}
+nav{
+	width: 1235px;
+	height: 93px;
+	margin: 0 auto;
+	margin-top: 26px;
+	background-color: #b1a99a;
+}
+nav ul li{
+	float: left;
+	width: 25%;
+	height: 93px;
+	text-align: center;
+	line-height: 86px;
+	display: block;
+}
+nav ul li:hover{
+	opacity: .8;
+	border-radius: .7em;
+	background: #978f80 url(img/line.png) no-repeat bottom;
+    background-size: 300px 10px;
+}
+nav a{
+	color: #123555;
+	font-size: 1.2em;
+	display: block;
+}
+.active{
+	opacity: .8;
+	border-radius: .7em;
+	background: #978f80 url(img/line.png) no-repeat bottom;
+    background-size: 300px 10px;
+}
+/* home */
+#main{
+	width: 1235px;
+	height: 615px;
+	margin: 0 auto;
+	margin-top: 16px;
+	color: #fff;
+	font-size: 1.1em;
+}
+#main .sum span{
+	display: inline-block;
+	float: right;
+	margin-right: 17px;
+}
+#main .sum{
+	width: 615px;
+	height: 55px;
+	padding-left: 8px;
+	padding-right: 8px;
+	line-height: 55px;
+	color: #fff;
+	font-size: 1.1em;
+	cursor: pointer;
+}
+#main .sum:hover{
+	background-color: #b1a99a ;
+	font-weight: bold;
+}
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+.details{
+	width: 615px;
+	height: 91px;
+	padding: 5px;
+	color: #123555;
+	font-size: 1.1em;
+	display: none;
+	background-color: #b1a99a;
+	line-height: 42px;
+}
+.details span{
+	color: #ccc;
+	font-weight: bolder;
+}
+#main .title{
+	width: 615px;
+	height: 43px;
+	background-color: #dcd0ab;
+	line-height: 43px;
+	color: #123555;
+	padding-left: 8px;
+}
+#main-left{
+	float: left;
+	width: 615px;
+	height: 600px;
+	/* background-color: #fff; */
+}
+#main-right{
+	float: right;
+	width: 615px;
+	height: 600px;
+	margin-left: 5px;
+	/* background-color: #fff; */
+}
+#main-txt{
+	width: 615px;
+	height: 550px;
+	border: 2px solid #ccc;
+	border-top: none;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+#contant{
+	position: relative;
+    width: 1235px;
+    height: 173px;
+    margin: 0 auto;
+    margin-top: 56px;
+    background-color: #b1a99a;
+}
+.code{
+	float: left;
+	margin-top: 35px;
+}
+.code img{
+	margin-left: 24px;
+}
+#code1{	
+	margin-left: 330px;
+}
+#code2{
+	margin-left: 100px;
+}
+footer{
+	float: left;
+	width: 100%;
+	height: 103px;
+	margin-top: 56px;
+	background-color: #b1a99a;
+	text-align: center;
+	line-height: 103px;
+}
+/* search */
+#center{
+	width: 1235px;
+	height: auto;
+	margin:0 auto;
+	margin-top: 56px;
+}
+#search{
+	width: 1235px;
+	height: 178px;
+}
+.ipt{
+	float: left;
+    width: 373px;
+    height: 43px;
+    margin-top: 15px;
+    margin-left: 115px;
+}
+.total form{
+	color: #123555;
+	font-size: 1.2em;
+	font-family: "Comic Sans MS",sans-serif,Helvetica,Arial;
+}
+.total input{
+	width:225px;
+	height: 27px;
+	border: none;
+}
+.total select{
+	color: #123555;
+	font-size: 1.0em;
+	font-family: "Comic Sans MS",sans-serif,Helvetica,Arial;
+}
+.total button{
+	font-size: 1.0em;
+	border: none;
+	color: #fff;
+	background-color: #514d3b;
+	border-radius: .5em;
+	cursor: pointer;
+	/* margin-top: 10px; */
+}
+#result{
+	width: 1235px;
+	height: auto;
+	margin-top: 56px;
+	border: 1px solid #ccc;
+}
+#result p{
+	color: #fff;
+	font-size: 1.2em;
+	text-align: center;
+	line-height: 37px;
+}
+
+/* pk-rgt */
+#pk-rgt{
+	width: 1235px;
+	height: 282px;
+}
+textarea{
+	width: 229px;
+	height: 67px;
+	border: none;
+	resize: none;
+}
+#pk-rgt button{
+	margin-top: 38px;
+}
+.sp{
+	vertical-align: top;
+}

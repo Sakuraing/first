@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scau失物招领</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="all.css">
+	<script type="text/javascript"  src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+	<script type="text/javascript" src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script> -->
+	
+</head>
+<body>
+    <header>
+        <div id="top">
+	    	<blockquote>
+	    		<p>
+	    				<span>Scau失物招领，</span>一个华农校内失物认领招领的平台.
+	    		</p> 
+	    	</blockquote>
+	    	<address>
+	    	    <img src="img/tel.png" width="30" height="36">
+	    	    服务电话<br><strong>987456321</strong>
+	    	</address>
+	    </div>
+	</header>
+	<nav>
+		<ul>
+		    <li class="active"><a href="home.html"><img src="img/home.png" width="20" height="18">&nbsp;首页</a></li>
+			<li><a href="search.html"><img src="img/search.png" width="20" height="18">&nbsp;查找失物</a></li> 
+			<li><a href="pickUp.html"><img src="img/letter.png" width="20" height="18">&nbsp;捨物上报</a></li> 
+			<li><a href="register.html"><img src="img/pen.png" width="20" height="18">&nbsp;失物登记</a></li>
+		</ul>
+	</nav>
+	<section id="main">
+		<div id="main-left">
+		    <div class="title">
+		        <h4>招领启事</h4>
+		    </div>
+		        <div id="main-txt">
+		            <ul>
+		            	<li class="sum" onclick="toGO()">
+		            		钱包<span>2016-05-03</span>
+		            	</li>
+		            	<li class="details hide">		            		    
+		            		        丢失物品：绿色钱包 <span>/</span>丢失地点：xxxxxxxx<span>/</span>丢失时间：2016-05-02 <br>物品状态：待认领
+		            		        <span>/</span>捨获人姓名：xxx<span>/</span>捨获人联系方式：111123456		            		    
+		            	</li>
+		            	<li class="sum">
+		            		<div>钱包<span>2016-05-03</span></div>
+		            	</li>
+		            	<li class="details hide">		            		    
+		            		        丢失物品：绿色钱包 <span>/</span>丢失地点：xxxxxxxx<span>/</span>丢失时间：2016-05-02 <br>物品状态：待认领
+		            		        <span>/</span>捨获人姓名：xxx<span>/</span>捨获人联系方式：111123456		            		    
+		            	</li>
+		            	<li class="sum">
+		            		<div>钱包<span>2016-05-03</span></div>
+		            	</li>
+		            	<li class="details hide">		            		    
+		            		        丢失物品：绿色钱包 <span>/</span>丢失地点：xxxxxxxx<span>/</span>丢失时间：2016-05-02 <br>物品状态：待认领
+		            		        <span>/</span>捨获人姓名：xxx<span>/</span>捨获人联系方式：111123456		            		    
+		            	</li>
+		            	<li class="sum">
+		            		<div>钱包<span>2016-05-03</span></div>		          
+		            	</li>
+		            	<li class="details hide">		            		    
+		            		        丢失物品：绿色钱包 <span>/</span>丢失地点：xxxxxxxx<span>/</span>丢失时间：2016-05-02 <br>物品状态：待认领
+		            		        <span>/</span>捨获人姓名：xxx<span>/</span>捨获人联系方式：111123456		            		    
+		            	</li>
+		            	<li class="sum">
+		            		<div>钱包<span>2016-05-03</span></div>
+		            	</li>
+		            	<li class="details hide">		            		    
+		            		        丢失物品：绿色钱包 <span>/</span>丢失地点：xxxxxxxx<span>/</span>丢失时间：2016-05-02 <br>物品状态：待认领
+		            		        <span>/</span>捨获人姓名：xxx<span>/</span>捨获人联系方式：111123456		            		    
+		            	</li>
+		            	<li class="sum">
+		            		<div>钱包<span>2016-05-03</span></div>
+		            	</li>
+		            	<li class="details hide">		            		    
+		            		        丢失物品：绿色钱包 <span>/</span>丢失地点：xxxxxxxx<span>/</span>丢失时间：2016-05-02 <br>物品状态：待认领
+		            		        <span>/</span>捨获人姓名：xxx<span>/</span>捨获人联系方式：111123456		            		    
+		            	</li>
+		            	<li class="sum">
+		            		<div>钱包<span>2016-05-03</span></div>		          
+		            	</li>
+		            	<li class="details hide">		            		    
+		            		        丢失物品：绿色钱包 <span>/</span>丢失地点：xxxxxxxx<span>/</span>丢失时间：2016-05-02 <br>物品状态：待认领
+		            		        <span>/</span>捨获人姓名：xxx<span>/</span>捨获人联系方式：111123456		            		    
+		            	</li>
+		            	<li class="sum">
+		            		<div>钱包<span>2016-05-03</span></div>		          
+		            	</li>
+		            	<li class="details hide">		            		    
+		            		        丢失物品：绿色钱包 <span>/</span>丢失地点：xxxxxxxx<span>/</span>丢失时间：2016-05-02 <br>物品状态：待认领
+		            		        <span>/</span>捨获人姓名：xxx<span>/</span>捨获人联系方式：111123456		            		    
+		            	</li>
+		            	<li class="sum">
+		            		<div>钱包<span>2016-05-03</span></div>		          
+		            	</li>
+		            	<li class="details hide">		            		    
+		            		        丢失物品：绿色钱包 <span>/</span>丢失地点：xxxxxxxx<span>/</span>丢失时间：2016-05-02 <br>物品状态：待认领
+		            		        <span>/</span>捨获人姓名：xxx<span>/</span>捨获人联系方式：111123456		            		    
+		            	</li>
+		            	<li class="sum">
+		            		<div>钱包<span>2016-05-03</span></div>		          
+		            	</li>
+		            	<li class="details hide">		            		    
+		            		        丢失物品：绿色钱包 <span>/</span>丢失地点：xxxxxxxx<span>/</span>丢失时间：2016-05-02 <br>物品状态：待认领
+		            		        <span>/</span>捨获人姓名：xxx<span>/</span>捨获人联系方式：111123456		            		    
+		            	</li>
+		            </ul>
+		        </div>
+		</div>
+		<div id="main-right">
+		    <div class="title">
+		        <h4>寻物启事</h4>
+		    </div>
+                <div id="main-txt">
+		            <ul>
+		            	<li class="sum">
+		            		<div>钱包<span>2016-05-03</span></div>
+		            		
+		            	</li>
+		            	<li class="details">		            		    
+		            		        丢失物品：绿色钱包 丢失时间：2016-05-02
+		            		        丢失地点：		            		    
+		            	</li>
+		            	<li class="sum">
+		            		<div>钱包<span>2016-05-03</span></div>
+		            	</li>
+		            	<li class="sum">
+		            		<div>钱包<span>2016-05-03</span></div>
+		            	</li>
+		            	<li class="sum">
+		            		<div>钱包<span>2016-05-03</span></div>		          
+		            	</li>
+		            	<li class="sum">
+		            		<div>钱包<span>2016-05-03</span></div>
+		            	</li>
+		            	<li class="sum">
+		            		<div>钱包<span>2016-05-03</span></div>
+		            	</li>
+		            	<li class="sum">
+		            		<div>钱包<span>2016-05-03</span></div>		          
+		            	</li>
+		            </ul>
+		        </div>
+		</div>
+	</section>
+	<div id="contant">
+		<div id="code1" class="code">
+			<p>关注本站微信公众号</p><br>
+			<img src="img/code1.png" width="50" height="50">
+		</div>
+		<div id="code2" class="code">
+			<p>关注本站的微博</p><br>
+			<img src="img/code2.png" width="50" height="50">
+		</div>
+		<div id="code2" class="code">
+			<p>
+				联系我们<br><br>
+				987456321
+			</p>
+		</div>
+	</div>	
+	<footer>
+		<p>
+			Copyright © 
+		</p>
+	</footer>
+</body>
+</html>
